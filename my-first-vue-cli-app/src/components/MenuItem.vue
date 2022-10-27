@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/no-mutating-props -->
 <template>
     <div id="menu-item" class="menu-item">
-        <img class="menu-item__image" :src="image.source" :alt="image.alt" />
+        <img class="menu-item_image" :src="image.source" :alt="image.alt" />
         <div>
             <h3>{{ name }}</h3>
             <p v-if="inStock">En stock</p>
